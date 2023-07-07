@@ -43,7 +43,7 @@ $error="Something went wrong. Please try again";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Admin Package Creation</title>
+<title>BYD | Admin Package Creation</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
@@ -85,12 +85,7 @@ $error="Something went wrong. Please try again";
 				     <div class="clearfix"> </div>	
 				</div>
 <!--heder end here-->
-	<ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.php">Home</a><i class="fa fa-angle-right"></i>Create Package </li>
-            </ol>
-		<!--grid-->
- 	<div class="grid-form">
- 
+<div class="grid-form">
 <!---->
   <div class="grid-form1">
   	       <h3>Create Package</h3>

@@ -42,16 +42,6 @@ $("#loaderIcon").hide();
 error:function (){}
 });
 }
-// function verify(){
-//     var num;
-//     num = Number(document.getElementById("number").value);
-//     if(num<7000000000){
-//         alert("Invalid number, Please enter right number");
-//     }
-//     else if(num>9999999999){
-//         alert("Invalid number, Please enter right number");
-//     }
-// }
 </script>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
@@ -69,14 +59,8 @@ error:function (){}
 								<input type="email" id="email" value="" placeholder="Email id" name="email" id="email" onBlur="checkAvailability()" autocomplete="off" style="width:100%;height:5vh;margin-top:20px;"  required="">	
 		 						<span id="user-availability-status" style="font-size:12px;"></span> 
 								<input type="password" id="pass" value="" placeholder="Password" name="password" required="">
-								<input type="password" id="cpass" name="cpassword" placeholder="confirm password"class="inp" required>
-							    <select name="que" id="que">
-									<option value="pet">which is your favorite pet</option>
-									<option value="food">which is your favorite food</option>
-									<option value="place">which is your favorite place</option>
-								</select>				
-								<input type="text" id="ans" name="hint" placeholder="Enter answer"class="inp" required>	
-								<input type="submit" onclick="verify()" name="submit" id="submit" value="CREATE ACCOUNT" style="background-color:darkblue;">
+								<input type="password" id="cpass" name="cpassword" placeholder="confirm password"class="inp" required>	
+								<input type="submit" name="submit" id="submit" value="Sign Up" style="margin-left:230px;width:100px;background-color:darkblue;">
 						</form>
 					</div>
 					<div class="clearfix"></div>								

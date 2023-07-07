@@ -11,7 +11,7 @@ else{
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Admin manage Users</title>
+<title>BYD | Admin manage Users</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -72,11 +72,7 @@ else{
 				<?php include('includes/header.php');?>
 				     <div class="clearfix"> </div>	
 				</div>
-<!--heder end here-->
-<ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a><i class="fa fa-angle-right"></i>Manage Users</li>
-            </ol>
-<div class="agile-grids">	
+<!--heder end here-->	
 				<!-- tables -->
 				
 				<div class="agile-tables">

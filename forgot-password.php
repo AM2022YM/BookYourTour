@@ -32,7 +32,7 @@ $error="Email id is invalid";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>BYD| Book Your Destination</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tourism Management System In PHP" />
@@ -91,26 +91,14 @@ return true;
 		<form name="chngpwd" method="post" onSubmit="return valid();">
 			<?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
 			else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
-			<b>Select your Question</b>
-			<br>
-			<select name="que" id="que" style="width:350px">
-				<option value="pet">which is your favorite pet</option>
-				<option value="food">which is your favorite food</option>
-				<option value="place">which is your favorite place</option>
-			</select>	
-			<br>
-			<br>
-			<b>Enter your Answer</b>
-			<br>			
-			<input type="text" id="hint" name="hint" placeholder="Enter answer"class="inp" required>
 			<p style="width: 350px;">
 			<b style="color:black;">Email id</b>  
 			<input type="email" name="email" class="form-control" id="email" placeholder="Reg Email id" required="">
 			</p> 
-			<!-- <p style="width: 350px;">
+			<p style="width: 350px;">
 			<b style="color:black;">Mobile No</b>  
 			<input type="text" name="mobile" class="form-control" id="mobile" placeholder="Reg Mobile no" required="">
-			</p>  -->
+			</p> 
 			<p style="width: 350px;">
 			<b style="color:black;">New  Password</b>
 			<input type="password" class="form-control" name="newpassword" id="newpassword" placeholder="New Password" required="">
